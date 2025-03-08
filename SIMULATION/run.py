@@ -1,6 +1,6 @@
 
 from agent import Agent
-from environment import Environment
+from enviourment import Environment
 def main():
 	# Create an environment with dimensions 10x10
 	env = Environment(width=10, height=10)

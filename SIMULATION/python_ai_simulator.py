@@ -29,7 +29,7 @@ class Agent(pygame.sprite.Sprite):
         self.image.fill(AGENT_COLOR)
         self.rect = self.image.get_rect()
         self.rect.x, self.rect.y = 100, 100
-        self.speed = 5
+        self.speed = 8
 
     def update(self, keys):
         """Update the agent's position based on key input."""

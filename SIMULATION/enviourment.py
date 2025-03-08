@@ -14,3 +14,4 @@ class Environment:
 	def display(self):
 		"""Display environment details."""
 		print(f"Environment size: {self.width}x{self.height}")
+		
