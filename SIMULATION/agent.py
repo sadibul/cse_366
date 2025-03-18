@@ -20,4 +20,3 @@ class Agent:
 	def status(self):
 		"""Print the current status of the agent."""
 		print(f"{self.name} is at position {self.position}.")
-
